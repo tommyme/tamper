@@ -1,0 +1,27 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@types/jquery': ^3.5.14
+  typescript: ^4.7.3
+
+devDependencies:
+  '@types/jquery': 3.5.14
+  typescript: 4.7.3
+
+packages:
+
+  /@types/jquery/3.5.14:
+    resolution: {integrity: sha512-X1gtMRMbziVQkErhTQmSe2jFwwENA/Zr+PprCkF63vFq+Yt5PZ4AlKqgmeNlwgn7dhsXEK888eIW2520EpC+xg==}
+    dependencies:
+      '@types/sizzle': 2.3.3
+    dev: true
+
+  /@types/sizzle/2.3.3:
+    resolution: {integrity: sha512-JYM8x9EGF163bEyhdJBpR2QX1R5naCJHC8ucJylJ3w9/CVBaskdQ8WqBf8MmQrd1kRvp/a4TS8HJ+bxzR7ZJYQ==}
+    dev: true
+
+  /typescript/4.7.3:
+    resolution: {integrity: sha512-WOkT3XYvrpXx4vMMqlD+8R8R37fZkjyLGlxavMc4iB8lrl8L0DeTcHbYgw/v0N/z9wAFsgBhcsF0ruoySS22mA==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
